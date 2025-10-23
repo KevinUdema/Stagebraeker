@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+/* project wide */
+.fullview  {
+    height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.backgroundblack{
+    background-color: #000000;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.bordershadows{
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+}
+
+.blockpadding{
+    padding-top: 12vh;
+    padding-bottom: 6vh;
+}
+
+.example-style {
+    animation: fade-in 3s;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 100;
+    }
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.titlestyle{
+    color:#ffffff;
+    background-color: #000;
+    padding-bottom:1vh;
+    border-bottom: 3px solid #b95a00;
+}
+
+.highlighttext{
+    color: #b95a00;
+}
+
+
+/* navbar */
+.header{
+    background-color: #000000;
+}
+.stageNav{
+    font-size:28px;
+}
+.nav-link{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.logo{
+    height: 20vh;
+}
+
+/* Banner */
+.bannerfull{
+    height: 75vh;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.bannerimg{
+    background-color: #000000;
+}
+
+/* TourData */
+.Tourshows{
+    border-bottom:1px solid rgba(187, 187, 187, 0.425);
+}
+.showData{
+    padding: 1vh 0;
+}
+
+.showdate{
+    color:#fff;
+}
+.showvenuedata{
+    color: #fff;
+}
+
+.showlocation{
+    color:#fff;
+}
+
+/* Footer */
+.footer{
+    padding: 5vh 0 1vh 0;
+}
+.footersocials{
+    color:#fff;
+}
+
+.socialmediaicon{
+    padding:0 5px;
 }
