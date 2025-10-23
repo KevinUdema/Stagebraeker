@@ -1,3 +1,7 @@
+# Website for the band Stagebraeker, hobby project by me (Kevin)
+
+This is a website I have been working on as a sideproject for fun. Learning react and getting back into programming.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
