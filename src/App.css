@@ -48,9 +48,10 @@
     margin-left: 15px;
     margin-right: 15px;
 }
-
-.logo{
-    height: 20vh;
+@media (min-width: 576px) { 
+    .logo{
+        height: 20vh;
+}
 }
 
 /* Banner */

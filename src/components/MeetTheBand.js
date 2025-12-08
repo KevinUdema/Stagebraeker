@@ -2,8 +2,7 @@ function MeetTheBand({StageBreakMember, MemberName}){
     return(
 
         <section className="bandMember backgroundblack col-sm-3" >
- 
-                <div className="">
+                <div className="m-2 m-sm-0">
                 <img
                     className="img-fluid"
                     src={StageBreakMember}
