@@ -14,10 +14,12 @@ function Header() {
             />
           </Link> 
         </div>
-          <nav className="col-md-12 nav stageNav navbar-expand-lg navbar-dark">
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <div className="col-2 nav stageNav navbar-dark navbar-expand-lg">            
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
+        </div>
+          <nav className="col-md-12 nav stageNav navbar-expand-lg navbar-dark">
             <div className="collapse navbar-collapse justify-content-center" id="navbarToggleExternalContent">
               <li>
                 <Link to={"/#"} className="nav-link text-white">

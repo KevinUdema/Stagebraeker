@@ -1,19 +1,11 @@
 import Header from "../Header";
 import Banner from "../Banner";
 import TextPictureRight from "../TextPictureRight";
-import MeetTheBand from "../MeetTheBand" 
 import TourData from "../TourData";
 import Title from "../Title";
 import Footer from "../Footer";
 
 function Dashboard() {
-  
-  const BandPics = [
-    {img: "/bannerpic1.jpg", alt: "bandMember1"},
-    {img: "https://placehold.co/600x400", alt: "bandMember2"},
-    {img: "https://placehold.co/600x400", alt: "bandMember3"},
-    {img: "https://placehold.co/600x400", alt: "bandMember4"},
-  ]
   const TourDataArray = [
     {ShowDate:"23-05", ShowVenueName:"De Klinker", ShowVenueTime:"20:30", ShowCountry:"The Netherlands", ShowCity:"Winschoten"},
     {ShowDate:"23-05", ShowVenueName:"De Klinker", ShowVenueTime:"20:30", ShowCountry:"The Netherlands", ShowCity:"Winschoten"},
