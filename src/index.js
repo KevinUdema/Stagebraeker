@@ -5,6 +5,7 @@ import './index.css';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
 import App from './App';
+import Dashboard from './components/pages/Dashboard';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap-icons/font/bootstrap-icons.css";
 import {
@@ -13,10 +14,12 @@ import {
 } from "react-router";
 
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App/>,
-  },
+  { path: "/", element: <App/>},
+  { path: "Dashboard", element: <Dashboard/> },
+  { path: "Orders", element: <Dashboard/> },
+  { path: "Products", element: <Dashboard/> },
+  { path: "customers", element: <Dashboard/> },
+  { path: "*", element: <Dashboard/> },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

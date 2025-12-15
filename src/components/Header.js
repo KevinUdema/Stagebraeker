@@ -1,3 +1,4 @@
+import { Link } from "react-router";
 // Header component for the website
 function Header() {
   return (
@@ -5,11 +6,13 @@ function Header() {
       <div className="container">
         <div className="row align-items-center">
         <div className="logo col-sm-6 offset-md-3 col-10">
-          <img
-            src="/Logo.svg"
-            alt="Stagebreaker"
-            className="img-fluid"
-          />
+         <Link to={"/#"}>
+            <img
+              src="/Logo.svg"
+              alt="Stagebreaker"
+              className="img-fluid"
+            />
+          </Link> 
         </div>
           <nav className="col-md-12 nav stageNav navbar-expand-lg navbar-dark">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,29 +20,29 @@ function Header() {
             </button>
             <div className="collapse navbar-collapse justify-content-center" id="navbarToggleExternalContent">
               <li>
-                <a href="/#" className="nav-link text-white">
-                  Home
-                </a>
+                <Link to={"/#"} className="nav-link text-white">
+                  <p>Home</p>
+                </Link>
               </li>
               <li>
-                <a href="/#" className="nav-link text-white">
-                  Dashboard
-                </a>
+                <Link to={"/Dashboard"} className="nav-link text-white">
+                  <p>Dashboard</p>
+                </Link>
               </li>
               <li>
-                <a href="/#" className="nav-link text-white">
-                  Orders
-                </a>
+                <Link to={"/#"} className="nav-link text-white">
+                  <p>Orders</p>
+                </Link>
               </li>
               <li>
-                <a href="/#" className="nav-link text-white">
-                  Products
-                </a>
+                <Link to={"/#"} className="nav-link text-white">
+                  <p>Products</p>
+                </Link>
               </li>
               <li>
-                <a href="/#" className="nav-link text-white">
-                  Customers
-                </a>
+                <Link to={"/#"} className="nav-link text-white">
+                  <p>Customers</p>
+                </Link>
               </li>
             </div>
           </nav>
