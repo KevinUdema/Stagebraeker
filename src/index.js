@@ -5,6 +5,7 @@ import './index.css';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
 import App from './App';
+import NotFoundPage from './NotFoundPage';
 import Dashboard from './components/pages/Dashboard';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap-icons/font/bootstrap-icons.css";
@@ -19,7 +20,7 @@ const router = createBrowserRouter([
   { path: "Orders", element: <Dashboard/> },
   { path: "Products", element: <Dashboard/> },
   { path: "customers", element: <Dashboard/> },
-  { path: "*", element: <Dashboard/> },
+  { path: "*", element: <NotFoundPage/> },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
