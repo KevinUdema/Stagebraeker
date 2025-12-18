@@ -21,31 +21,33 @@ function Header() {
         </div>
           <nav className="col-md-12 nav stageNav navbar-expand-lg navbar-dark">
             <div className="collapse navbar-collapse justify-content-center" id="navbarToggleExternalContent">
-              <li>
-                <Link to={"/#"} className="nav-link text-white">
-                  <p>Home</p>
-                </Link>
-              </li>
-              <li>
-                <Link to={"/Dashboard"} className="nav-link text-white">
-                  <p>Dashboard</p>
-                </Link>
-              </li>
-              <li>
-                <Link to={"/#"} className="nav-link text-white">
-                  <p>Orders</p>
-                </Link>
-              </li>
-              <li>
-                <Link to={"/#"} className="nav-link text-white">
-                  <p>Products</p>
-                </Link>
-              </li>
-              <li>
-                <Link to={"/#"} className="nav-link text-white">
-                  <p>Customers</p>
-                </Link>
-              </li>
+              <ul class="navbar-nav mr-auto">
+                <li>
+                  <Link to={"/#"} className="nav-link text-white">
+                    <p>Home</p>
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/Dashboard"} className="nav-link text-white">
+                    <p>Dashboard</p>
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/#"} className="nav-link text-white">
+                    <p>Orders</p>
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/#"} className="nav-link text-white">
+                    <p>Products</p>
+                  </Link>
+                </li>
+                <li>
+                  <Link to={"/#"} className="nav-link text-white">
+                    <p>Customers</p>
+                  </Link>
+                </li>
+              </ul>
             </div>
           </nav>
         </div>
