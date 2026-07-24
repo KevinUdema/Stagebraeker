@@ -29,13 +29,13 @@ function App() {
     <div className="backgroundblack">
       <Header ></Header>
       <Banner 
-        heading={"Big title heading"} 
-        fillerText={"This is text that's going somewhere"} 
+        heading={"Stagebraeker"} 
+        fillerText={"A local metal force from Winschoten, Stagebraeker brings thunder, grit, and hometown heat to every stage they touch."} 
         bannerImgLink={"/bannerpic1.jpg"}/>
       <TextPictureRight 
         pictureRightImg={"/bannerpic1.jpg"} 
-        textTitle={"Big cool title"} 
-        mainText={"Lorem Ipsum is the single greatest threat. We are not - we are not keeping up with other websites. Lorem Ipsum best not make any more threats to your website. It will be met with fire and fury like the world has never seen. Does everybody know that pig named Lorem Ipsum? An ‘extremely credible source’ has called my office and told me that Barack Obama’s placeholder text is a fraud."}
+        textTitle={"Heavy riffs, local roots"} 
+        mainText={"Born in Winschoten and forged in the fire of late-night rehearsals, Stagebraeker is the kind of band that turns a small town into a full-blown storm. Their sound hits hard, swings wild, and carries the raw spirit of a community that knows how to raise the volume."}
       />
       <div className="container">
         <div className="row Meettheband">
@@ -49,7 +49,7 @@ function App() {
             )
           }
         </div>
-        <Title titleText="Icarus tour" />
+        <Title titleText="The Icarus Tour" />
         <div className="touringData">
           {TourDataArray.map((tourDataInfo,i) =>
             <TourData 

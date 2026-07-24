@@ -1,10 +1,11 @@
 /* project wide */
 .backgroundblack{
-    background-color: #000000;
+    background-color: #050505;
+    color: #f5f5f5;
 }
 
 .bordershadows{
-    box-shadow: rgba(255, 255, 255, 0.25) 0px 54px 55px, rgba(255, 255, 255, 0.12) 0px -12px 30px, rgba(255, 255, 255, 0.12) 0px 4px 6px, rgba(255, 255, 255, 0.17) 0px 12px 13px, rgba(255, 255, 255, 0.09) 0px -3px 5px;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 18px 45px rgba(185, 90, 0, 0.35), 0 0 35px rgba(0, 0, 0, 0.7);
 }
 
 .blockpadding{
@@ -16,11 +17,17 @@
     color:#ffffff;
     background-color: #000;
     padding-bottom:1vh;
-    border-bottom: 3px solid #b95a00;
+    border-bottom: 3px solid #ff6a00;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    font-weight: 700;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .highlighttext{
-    color: #b95a00;
+    color: #ff6a00;
 }
 
 
@@ -45,30 +52,52 @@
 .bannerfull{
     height: 75vh;
     object-fit: cover;
-    opacity: 0.5;
+    opacity: 0.9;
 }
 
 .bannerimg{
     background-color: #000000;
 }
 
+.bannerimgText h1,
+.bannerimgText p {
+    text-shadow: 0 0 18px rgba(0, 0, 0, 0.8);
+}
+
+.bannerimgText h1 {
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.bannerimgText p {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    max-width: 700px;
+}
+
 /* TourData */
 .Tourshows{
-    border-bottom:1px solid rgba(187, 187, 187, 0.425);
+    border-bottom: 1px solid rgba(255, 106, 0, 0.35);
+    padding: 1.2rem 0;
 }
 .showData{
     padding: 1vh 0;
 }
 
 .showdate{
-    color:#fff;
+    color:#ff8a3d;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
 }
 .showvenuedata{
     color: #fff;
+    font-weight: 600;
 }
 
 .showlocation{
-    color:#fff;
+    color:#d4d4d4;
 }
 
 /* Footer */

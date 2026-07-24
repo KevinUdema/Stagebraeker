@@ -1,7 +1,13 @@
 function Title({titleText}){
     return(
         <div className="text-center blockpadding">
-            <h1 className="titlestyle col-sm-4 offset-sm-4">{titleText}</h1>
+            <div className="container">
+                <div className="row justify-content-center">
+                    <div className="col-12 col-sm-8 col-md-6">
+                        <h1 className="titlestyle">{titleText}</h1>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 }
