@@ -4,6 +4,19 @@
     color: #f5f5f5;
 }
 
+.textWithPictureRight {
+    background: linear-gradient(135deg, #1a120d 0%, #050505 55%, #1b0f06 100%);
+    position: relative;
+}
+
+.textWithPictureRight::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(circle at top left, rgba(255, 106, 0, 0.18), transparent 40%);
+    pointer-events: none;
+}
+
 .bordershadows{
     box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.06), 0 18px 45px rgba(185, 90, 0, 0.35), 0 0 35px rgba(0, 0, 0, 0.7);
 }
@@ -15,8 +28,8 @@
 
 .titlestyle{
     color:#ffffff;
-    background-color: #000;
-    padding-bottom:1vh;
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 0.25rem 0.75rem 1vh;
     border-bottom: 3px solid #ff6a00;
     letter-spacing: 0.16em;
     text-transform: uppercase;
@@ -24,6 +37,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    display: inline-block;
 }
 
 .highlighttext{
