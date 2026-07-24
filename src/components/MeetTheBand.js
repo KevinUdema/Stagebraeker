@@ -1,14 +1,14 @@
 function MeetTheBand({StageBreakMember, MemberName}){
     return(
-
-        <section className="bandMember backgroundblack col-sm-3" >
-                <div className="m-2 m-sm-0">
+        <section className="bandMember backgroundblack col-12 col-sm-6 col-lg-3 mb-4">
+            <div className="m-2 m-sm-0 text-center">
                 <img
-                    className="img-fluid"
+                    className="img-fluid bordershadows"
                     src={StageBreakMember}
-                    alt={MemberName} 
+                    alt={MemberName}
                 />
-                </div>
+                <h4 className="mt-3 mb-0 text-white fw-bold">{MemberName}</h4>
+            </div>
         </section>
     );
 }

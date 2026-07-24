@@ -9,10 +9,11 @@ import Footer from "./components/Footer";
 function App() {
   
   const BandPics = [
-    {img: "/bannerpic1.jpg", alt: "bandMember1"},
-    {img: "https://placehold.co/600x400", alt: "bandMember2"},
-    {img: "https://placehold.co/600x400", alt: "bandMember3"},
-    {img: "https://placehold.co/600x400", alt: "bandMember4"},
+    {img: "pictures/people/Jorn.jpg", alt: "Jorn"},
+    {img: "pictures/people/Shanna.jpg", alt: "Shanna"},
+    {img: "pictures/people/Nicky.jpg", alt: "Nicky"},
+    {img: "pictures/people/Kevin.jpg", alt: "Kevin"},
+
   ]
   const TourDataArray = [
     {ShowDate:"23-05", ShowVenueName:"De Klinker", ShowVenueTime:"20:30", ShowCountry:"The Netherlands", ShowCity:"Winschoten"},
@@ -33,11 +34,14 @@ function App() {
         fillerText={"A local metal force from Winschoten, Stagebraeker brings thunder, grit, and hometown heat to every stage they touch."} 
         bannerImgLink={"/bannerpic1.jpg"}/>
       <TextPictureRight 
-        pictureRightImg={"/bannerpic1.jpg"} 
+        pictureRightImg={"pictures/fullband.jpg"} 
         textTitle={"Heavy riffs, local roots"} 
         mainText={"Born in Winschoten and forged in the fire of late-night rehearsals, Stagebraeker is the kind of band that turns a small town into a full-blown storm. Their sound hits hard, swings wild, and carries the raw spirit of a community that knows how to raise the volume."}
       />
       <div className="container">
+        <div className="text-center blockpadding">
+          <h2 className="titlestyle d-inline-block px-4">Meet the Band</h2>
+        </div>
         <div className="row Meettheband">
           {
             BandPics.map((bandMemb,i) => (
