@@ -21,9 +21,9 @@ function App() {
     {ShowDate:"23-05", ShowVenueName:"De Klinker", ShowVenueTime:"20:30", ShowCountry:"The Netherlands", ShowCity:"Winschoten"},
     {ShowDate:"23-05", ShowVenueName:"De Klinker", ShowVenueTime:"20:30", ShowCountry:"The Netherlands", ShowCity:"Winschoten"},
     {ShowDate:"23-05", ShowVenueName:"De Klinker", ShowVenueTime:"20:30", ShowCountry:"The Netherlands", ShowCity:"Winschoten"},
-    {ShowDate:"23-05", ShowVenueName:"De Klinker", ShowVenueTime:"20:30", ShowCountry:"The Netherlands", ShowCity:"Winschoten"},
-    {ShowDate:"23-05", ShowVenueName:"De Klinker", ShowVenueTime:"20:30", ShowCountry:"The Netherlands", ShowCity:"Winschoten"},
-    {ShowDate:"23-05", ShowVenueName:"De Klinker", ShowVenueTime:"20:30", ShowCountry:"The Netherlands", ShowCity:"Winschoten"},
+    // {ShowDate:"23-05", ShowVenueName:"De Klinker", ShowVenueTime:"20:30", ShowCountry:"The Netherlands", ShowCity:"Winschoten"},
+    // {ShowDate:"23-05", ShowVenueName:"De Klinker", ShowVenueTime:"20:30", ShowCountry:"The Netherlands", ShowCity:"Winschoten"},
+    // {ShowDate:"23-05", ShowVenueName:"De Klinker", ShowVenueTime:"20:30", ShowCountry:"The Netherlands", ShowCity:"Winschoten"},
   ]
 
   return (
